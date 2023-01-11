@@ -13,3 +13,17 @@ const boomEl = document.querySelector('.boom');
 
 
 boomEl.id = "boom";
+document.addEventListener("DOMContentLoaded", function(event) {
+    
+    const anchorEl = document.querySelector('a');
+
+    
+    anchorEl.href = "#boom";
+
+   
+    const boomEl = document.querySelector('.boom');
+
+   
+    boomEl.id = "boom";
+});
+
